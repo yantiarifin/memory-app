@@ -17,12 +17,12 @@ Anyone can retrieve a conversation. The value comes from connecting conversation
 
 <h3>Curiosity comes before productivity.</h3>
 
-MeTapestry is not designed to help the user do more. It is designed to help the user understand more.
+DiscoveryApp is not designed to help the user do more. It is designed to help the user understand more.
 
 
 <h3>Time compounds understanding.</h3>
 
-Every conversation enriches the user's history. Every memory creates new connections. The longer one uses MeTapestry, the more meaningful it becomes.
+Every conversation enriches the user's history. Every memory creates new connections. The longer one uses DiscoveryApp, the more meaningful it becomes.
 
 
 <h3>Suggest. Never declare.</h3>

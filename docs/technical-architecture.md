@@ -21,13 +21,13 @@ Insight Engine
 Evidence Layer
          │
          ▼
-MeTapestry UI
+DiscoveryApp UI
 ```
 
 
 <h3>AI Conversation History</h3>
 
-The raw source material for MeTapestry. Users import conversation exports from AI platforms such as ChatGPT and Claude. These conversations become the foundation for all future analysis.
+The raw source material for DiscoveryApp. Users import conversation exports from AI platforms such as ChatGPT and Claude. These conversations become the foundation for all future analysis.
 
 Input: Conversation export files
 
@@ -89,7 +89,7 @@ Components
 * Metadata database
 * Relationship indexes
 
-This becomes the long-term memory of MeTapestry.
+This becomes the long-term memory of DiscoveryApp.
 
 
 
@@ -125,7 +125,7 @@ This layer makes AI conclusions transparent and trustworthy.
 
 
 
-<h3>MeTapestry UI</h3>
+<h3>DiscoveryApp UI</h3>
 
 The interface where users explore their own history.
 
