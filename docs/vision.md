@@ -2,7 +2,7 @@ Vision
 
 Build a personal memory companion that transforms the countless conversations you have with AI into a deeper understanding of yourself. Every question, idea, challenge, curiosity, and breakthrough becomes part of a larger story.
 
-MeTapestry helps you discover the patterns that have been there all along—but were impossible to see one conversation at a time.
+DiscoveryApp helps you discover the patterns that have been there all along—but were impossible to see one conversation at a time.
 
 ⸻
 
@@ -10,13 +10,13 @@ MeTapestry helps you discover the patterns that have been there all along—but 
 What Makes This Different
 
 Most AI generates answers.  
-MeTapestry reveals patterns.
+DiscoveryApp reveals patterns.
 
 Most memory systems retrieve information.  
-MeTapestry discovers connections.
+DiscoveryApp discovers connections.
 
 Most productivity tools help you get things done.  
-MeTapestry helps you understand yourself.
+DiscoveryApp helps you understand yourself.
 
 ⸻
 
@@ -28,7 +28,7 @@ You are often too close to your own life to recognize long-term patterns. Given 
 
 The Experience
 
-Opening MeTapestry is like opening a conversation with your history. The first thing you see is not a dashboard. Not a search box. Not analytics.
+Opening DiscoveryApp is like opening a conversation with your history. The first thing you see is not a dashboard. Not a search box. Not analytics.
 
 It is a single thoughtful observation. Something worth exploring.
 
@@ -66,7 +66,7 @@ AI helps you become more aware of yourself, not more dependent on it.
 
 ⸻
 
-MeTapestry is not a:
+DiscoveryApp is not a:
 - Therapist
 - Personality test
 - Social media
@@ -78,7 +78,7 @@ Our role is not to tell you who you are, but to help you discover what you may h
 
 Success
 
-We succeed when you open MeTapestry and say:  
+We succeed when you open DiscoveryApp and say:  
 “I never noticed that before.”
 
 Not because AI invented a story. But because it helped reveal one that was always there.
