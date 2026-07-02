@@ -1,84 +1,27 @@
-Vision
+<h1>Vision</h1>
 
-Build a personal memory companion that transforms the countless conversations you have with AI into a deeper understanding of yourself. Every question, idea, challenge, curiosity, and breakthrough becomes part of a larger story.
+```
+Import
+   ↓
+Discover
+   ↓
+Understand
+```
+<br>
+DiscoveryApp helps people discover patterns hidden within their own history.
 
-DiscoveryApp helps you discover the patterns that have been there all along—but were impossible to see one conversation at a time.
+Conversations with AI are only the beginning. Every question, idea, decision, curiosity, and breakthrough becomes part of a larger story. As more of your history is brought into DiscoveryApp, the picture becomes richer, revealing patterns that are impossible to see one moment at a time.
 
-⸻
+<h2>Key Idea</h2>
+Personal data should be usable by the people who generate it. Gathering personal history is itself an act of ownership. By exporting and uploading the data they choose to share, people reclaim information that would otherwise remain scattered across platforms. DiscoveryApp transforms that history into an opportunity for self-understanding.
 
-
-What Makes This Different
-
-Most AI generates answers.  
-DiscoveryApp reveals patterns.
-
-Most memory systems retrieve information.  
-DiscoveryApp discovers connections.
-
-Most productivity tools help you get things done.  
-DiscoveryApp helps you understand yourself.
-
-⸻
-
-Core Belief
-
-You are often too close to your own life to recognize long-term patterns. Given enough history, AI can reveal relationships, habits, growth, and recurring themes that are nearly impossible for you to notice alone. Not because it understands you better than you understand yourself, but because it remembers more than any human possibly can.
-
-⸻
-
-The Experience
-
-Opening DiscoveryApp is like opening a conversation with your history. The first thing you see is not a dashboard. Not a search box. Not analytics.
-
-It is a single thoughtful observation. Something worth exploring.
-
-Every visit begins with curiosity.
-
-⸻
-
-Trust
-
-Every insight must earn your trust. Observations are not presented as unquestionable truths, but grounded in evidence drawn from your history.
-
-You should always be able to explore how an insight was formed.
-
-Trust is built through transparency.
-
-⸻
-
-The Role of AI
-
-AI is not the product. Your history is the product.
-
-The role of AI is to organize, connect, summarize, and reveal. Its purpose is to help you notice what you would otherwise overlook.
-
-It guides, suggests. It never judges. It serves as a mirror reflecting back a perspective you may not have been aware of.
+<h2>User's Role</h2>
+Users choose which data sources to export, upload, and analyze. The upload process is not a technical nuisance; it is part of the product’s philosophy. Nothing is collected automatically. The history users choose to contribute becomes the foundation for every observation and every insight.
 
 
-⸻
-
-Our Principles
-
-Curiosity is more valuable than productivity.
-Evidence is more valuable than opinion.
-Understanding yourself is a lifelong process, not a destination.
-AI helps you become more aware of yourself, not more dependent on it.
-
-⸻
-
-DiscoveryApp is not a:
-- Therapist
-- Personality test
-- Social media
-- Productivity tool
-
-Our role is not to tell you who you are, but to help you discover what you may have overlooked.
-
-⸻
-
-Success
-
-We succeed when you open DiscoveryApp and say:  
-“I never noticed that before.”
-
-Not because AI invented a story. But because it helped reveal one that was always there.
+<h2>Our Role</h2>
+DiscoveryApp does not try to know everything about you. It works only with the history you choose to provide. 
+<br><br>
+It is not here to tell you who you are.
+<br><br>
+It is here to help you discover what you might otherwise never have noticed.

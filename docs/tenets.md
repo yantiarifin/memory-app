@@ -1,44 +1,34 @@
 <h1>Tenets</h1>
 
-<h3>The history is the product.</h3> 
+<h3>The user's history is the product.</h3> 
 Without it, there is nothing meaningful to discover.
 AI exists to reveal what is already there.
-
+<br><br><hr>
 
 <h3>Every insight must earn trust.</h3>
 
-Every observation should be grounded in evidence and should always be able to understand why an insight exists.
-
+Every observation should be grounded in evidence. Users should always be able to understand why an insight exists.
+<br><br><hr>
 
 <h3>Patterns matter more than memories.</h3>
 
 Anyone can retrieve a conversation. The value comes from connecting conversations across time.
-
+<br><br><hr>
 
 <h3>Curiosity comes before productivity.</h3>
 
-DiscoveryApp is not designed to help the user do more. It is designed to help the user understand more.
-
+DiscoveryApp is not designed to help users do more. It is designed to help them understand more.
+<br><br><hr>
 
 <h3>Time compounds understanding.</h3>
 
 Every conversation enriches the user's history. Every memory creates new connections. The longer one uses DiscoveryApp, the more meaningful it becomes.
-
+<br><br><hr>
 
 <h3>Suggest. Never declare.</h3>
 
 AI presents possibilities. User decides what resonates.
-
-
-<h3>Calm is a feature.</h3>
-
-Reflection requires space. The interface should never compete for attention.
-
-
-<h3>Less is more.</h3>
-
-Every feature must justify its existence. When in doubt, remove.
-
+<br><br><hr>
 
 <h3>User's history belongs to them.</h3>
 

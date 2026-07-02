@@ -21,7 +21,22 @@ Evidence Layer
         ▼
 DiscoveryApp UI
 ```
-<br>
+
+<h2>Architecture Overview</h2>
+
+DiscoveryApp transforms user-owned history into evidence-backed insights.
+
+Regardless of where the history comes from, every source follows the same pipeline:
+
+1. Import
+2. Process
+3. Enrich
+4. Store
+5. Generate insights
+6. Present evidence
+
+This architecture allows DiscoveryApp to support new data sources without changing the core insight engine.
+
 <h2>Data Source Strategy</h2>
 
 Initial supported source:
@@ -57,22 +72,20 @@ Platform connectors can come later, but they should not define the product.
 
 <h2>Import Pipeline</h2>
 
-Imports, validates, and normalizes conversation data into a common internal format regardless of the source platform.
+Imports, validates, and normalizes user history into a common internal format regardless of the source platform.
 
 Responsibilities
 
 * Parse exported files
 * Validate data integrity
 * Remove duplicates
-* Normalize timestamps, authors, and message formats
+* Normalize timestamps, authors, and source-specific formats
 
-Output: Standardized conversation documents
+Output: Standardized history records
 
+<h2>Document Processing</h2>
+Breaks imported history into logical units and prepares it for analysis.
 
-
-<h3>Document Processing</h3>
-
-Breaks conversations into logical units and prepares them for analysis.
 
 Responsibilities
 
@@ -82,9 +95,7 @@ Responsibilities
 
 Output: Structured conversation chunks
 
-
-
-<h3>Chunking + Metadata Extraction</h3>
+<h2>Chunking + Metadata Extraction</h2>
 
 Enriches each chunk with information that can be searched and analyzed later.
 
@@ -96,17 +107,17 @@ Responsibilities
 * Detect goals, projects, decisions, emotions, and beliefs
 * Tag each chunk with metadata
 
-Output: Searchable knowledge objects
+Output: Searchable history objects
 
 
 
-<h3>Knowledge Store</h3>
+<h2>Knowledge Store</h2>
 
-Stores both the original conversations and their enriched representations.
+Stores both the original imported history and its enriched representations.
 
 Components
 
-* Raw conversation archive
+* Raw history archive
 * Vector database for semantic search
 * Metadata database
 * Relationship indexes
@@ -115,7 +126,7 @@ This becomes the long-term memory of DiscoveryApp.
 
 
 
-<h3>Insight Engine</h3>
+<h2>Insight Engine</h2>
 
 Analyzes the knowledge store to identify meaningful patterns across time.
 
@@ -131,8 +142,7 @@ Responsibilities
 The Insight Engine never invents information—it synthesizes what already exists.
 
 
-
-<h3>Evidence Layer</h3>
+<h2>Evidence Layer</h2>
 
 Every insight is backed by the exact conversation excerpts that support it.
 
@@ -146,11 +156,9 @@ Users can inspect:
 This layer makes AI conclusions transparent and trustworthy.
 
 
+<h2>DiscoveryApp UI</h2>
 
-<h3>DiscoveryApp UI</h3>
-
-The interface where users explore their own history.
-
+The interface where users explore the patterns hidden within their history.
 Potential sections:
 
 * Discover
