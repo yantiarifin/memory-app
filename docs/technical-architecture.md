@@ -1,39 +1,61 @@
-```text
-AI Conversation History
-         │
-         ▼
+<h1>Technical Architecture</h1>
+
+```
+User-Owned Data
+        │
+        ▼
 Import Pipeline
-         │
-         ▼
-Document Processing
-         │
-         ▼
-Chunking + Metadata Extraction
-         │
-         ▼
-Knowledge Store
-(Vector DB + Metadata)
-         │
-         ▼
+        │
+        ▼
+Normalization Pipeline
+        │
+        ▼
+History Store
+        │
+        ▼
 Insight Engine
-         │
-         ▼
+        │
+        ▼
 Evidence Layer
-         │
-         ▼
+        │
+        ▼
 DiscoveryApp UI
 ```
+<br>
+<h2>Data Source Strategy</h2>
 
+Initial supported source:
 
-<h3>AI Conversation History</h3>
+- ChatGPT export
 
-The raw source material for DiscoveryApp. Users import conversation exports from AI platforms such as ChatGPT and Claude. These conversations become the foundation for all future analysis.
+Near-term supported sources:
 
-Input: Conversation export files
+- Claude export
+- Other AI chat exports where available
+- Manually uploaded text files
+- Markdown notes
+- PDFs or documents containing personal history
 
+Future possible sources:
 
+- Chrome browsing history
+- Amazon purchase history
+- Email exports
+- Calendar exports
+- Photos metadata
+- Location history
+- Financial or subscription history
+- Other user-selected personal datasets
 
-<h3>Import Pipeline</h3>
+Important constraint:
+
+DiscoveryApp should not depend on direct platform integrations in the early product.
+
+The first version should support user-provided exports and uploads. This keeps the architecture simpler, avoids OAuth/platform dependency hell, and reinforces the product belief that users can actively reclaim and use their own data.
+
+Platform connectors can come later, but they should not define the product.
+
+<h2>Import Pipeline</h2>
 
 Imports, validates, and normalizes conversation data into a common internal format regardless of the source platform.
 
