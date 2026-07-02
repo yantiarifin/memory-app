@@ -21,3 +21,6 @@ out/
 # Editor
 .vscode/
 .idea/
+
+# Local sync state for the /gpt-update command
+.claude/gpt-sync
