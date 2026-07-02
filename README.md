@@ -36,18 +36,3 @@ been scaffolded yet.
 | [Tenets](docs/tenets.md) | Principles we will not violate |
 | [Technical Architecture](docs/technical-architecture.md) | The ingestion-to-UI pipeline |
 | [AI Architecture](docs/AI-architecture.md) | Engineering AI vs. Product AI, agents and services |
-| [Decisions (ADRs)](docs/decisions/README.md) | The architectural decisions and their rationale |
-
-### Key decisions
-
-The foundational choices are recorded as [ADRs](docs/decisions/README.md):
-
-- **[Hybrid privacy](docs/decisions/0001-hybrid-privacy-model.md)** — local by
-  default; only minimum context goes to a cloud LLM.
-- **[Provider abstraction](docs/decisions/0002-ai-provider-abstraction.md)** — a
-  common `LLMProvider` interface; OpenAI first, then Anthropic, then local.
-- **[Agents vs. services](docs/decisions/0003-logical-agents-vs-services.md)**,
-  **[insight cadence](docs/decisions/0004-insight-generation-cadence.md)**,
-  **[validation pipeline](docs/decisions/0005-insight-validation-pipeline.md)**,
-  **[evidence bundles](docs/decisions/0006-evidence-bundle-architecture.md)**, and
-  **[conversation-orchestrated runtime](docs/decisions/0007-conversation-orchestrated-runtime.md)**.
